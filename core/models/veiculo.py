@@ -1,8 +1,8 @@
 from django.db import models
 
-from .modelo import Modelo
-from .cor import Cor
 from .acessorio import Acessorio
+from .cor import Cor
+from .modelo import Modelo
 
 
 class Veiculo(models.Model):

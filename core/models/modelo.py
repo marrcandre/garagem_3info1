@@ -1,7 +1,7 @@
 from django.db import models
 
-from .marca import Marca
 from .categoria import Categoria
+from .marca import Marca
 
 
 class Modelo(models.Model):
