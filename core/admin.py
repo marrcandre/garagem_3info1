@@ -28,6 +28,8 @@ class UserAdmin(BaseUserAdmin):
             },
         ),
         (_("Important dates"), {"fields": ("last_login",)}),
+        (_("Groups"), {"fields": ("groups",)}), #incluir essa linha
+        (_("User Permissions"), {"fields": ("user_permissions",)}), #incluir essa
     )
     readonly_fields = ["last_login"]
     add_fieldsets = (
